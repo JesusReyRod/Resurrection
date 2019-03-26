@@ -1,0 +1,6 @@
+framework module Pods_OjoMetropolitano {
+  umbrella header "Pods-OjoMetropolitano-umbrella.h"
+
+  export *
+  module * { export * }
+}

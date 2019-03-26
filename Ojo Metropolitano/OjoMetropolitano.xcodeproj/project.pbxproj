@@ -1,0 +1,1185 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51F42A563F67E71881806091 /* Pods_Ojo_MetropolitanoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9D14009BCD8BECB3C75125 /* Pods_Ojo_MetropolitanoUITests.framework */; };
+		5204A84620A289BE00CD27BA /* PopUpReportesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204A84520A289BE00CD27BA /* PopUpReportesViewController.swift */; };
+		5206C5FB2096D2C80009E851 /* UserLugares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206C5FA2096D2C80009E851 /* UserLugares.swift */; };
+		520C8C52208AC1FE00A12286 /* PopUpDetallesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C8C51208AC1FE00A12286 /* PopUpDetallesVC.swift */; };
+		52206E70204C6BB6008A0E9C /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52206E69204C6BB6008A0E9C /* FloatyItem.swift */; };
+		52206E71204C6BB6008A0E9C /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52206E6A204C6BB6008A0E9C /* FloatyViewController.swift */; };
+		52206E72204C6BB6008A0E9C /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52206E6B204C6BB6008A0E9C /* FloatyManager.swift */; };
+		52206E73204C6BB6008A0E9C /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52206E6C204C6BB6008A0E9C /* FloatyDelegate.swift */; };
+		52206E74204C6BB6008A0E9C /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52206E6D204C6BB6008A0E9C /* FloatyWindow.swift */; };
+		52206E75204C6BB6008A0E9C /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52206E6E204C6BB6008A0E9C /* Floaty.swift */; };
+		522E81DF20709E2400EFCB70 /* AgregarLugarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E81DE20709E2400EFCB70 /* AgregarLugarVC.swift */; };
+		52314CEC205771A80058678C /* GruposCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52314CEB205771A80058678C /* GruposCollectionViewCell.swift */; };
+		52314CEE205772C90058678C /* MisLugaresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52314CED205772C90058678C /* MisLugaresVC.swift */; };
+		52322D3520C8E41F00D083E8 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D1F20C8E41F00D083E8 /* IQNSArray+Sort.swift */; };
+		52322D3620C8E41F00D083E8 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2020C8E41F00D083E8 /* IQUIScrollView+Additions.swift */; };
+		52322D3720C8E41F00D083E8 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2120C8E41F00D083E8 /* IQUITextFieldView+Additions.swift */; };
+		52322D3820C8E41F00D083E8 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2220C8E41F00D083E8 /* IQUIView+Hierarchy.swift */; };
+		52322D3920C8E41F00D083E8 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2320C8E41F00D083E8 /* IQUIViewController+Additions.swift */; };
+		52322D3A20C8E41F00D083E8 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2520C8E41F00D083E8 /* IQKeyboardManagerConstants.swift */; };
+		52322D3B20C8E41F00D083E8 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2620C8E41F00D083E8 /* IQKeyboardManagerConstantsInternal.swift */; };
+		52322D3C20C8E41F00D083E8 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2720C8E41F00D083E8 /* IQKeyboardManager.swift */; };
+		52322D3D20C8E41F00D083E8 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2920C8E41F00D083E8 /* IQKeyboardReturnKeyHandler.swift */; };
+		52322D3E20C8E41F00D083E8 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2B20C8E41F00D083E8 /* IQTextView.swift */; };
+		52322D3F20C8E41F00D083E8 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2D20C8E41F00D083E8 /* IQBarButtonItem.swift */; };
+		52322D4020C8E41F00D083E8 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2E20C8E41F00D083E8 /* IQInvocation.swift */; };
+		52322D4120C8E41F00D083E8 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D2F20C8E41F00D083E8 /* IQPreviousNextView.swift */; };
+		52322D4220C8E41F00D083E8 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D3020C8E41F00D083E8 /* IQTitleBarButtonItem.swift */; };
+		52322D4320C8E41F00D083E8 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D3120C8E41F00D083E8 /* IQToolbar.swift */; };
+		52322D4420C8E41F00D083E8 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52322D3220C8E41F00D083E8 /* IQUIView+IQKeyboardToolbar.swift */; };
+		52322D4520C8E41F00D083E8 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52322D3420C8E41F00D083E8 /* IQKeyboardManager.bundle */; };
+		523EFF24209F9AB8002DD97C /* ValidarSesionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EFF23209F9AB8002DD97C /* ValidarSesionVC.swift */; };
+		5243FC6820D195C500C73F76 /* WatchImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243FC6720D195C400C73F76 /* WatchImageVC.swift */; };
+		526D23F820AA50E900D51650 /* ContactosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D23F720AA50E900D51650 /* ContactosTableViewCell.swift */; };
+		526D23FA20AA695700D51650 /* ContactosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D23F920AA695600D51650 /* ContactosCollectionViewCell.swift */; };
+		528F89F120A976F30082E4EA /* MisContactosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F89F020A976F20082E4EA /* MisContactosVC.swift */; };
+		52B10145205B70F8006066B0 /* NaviigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B10144205B70F8006066B0 /* NaviigationVC.swift */; };
+		52B722B120D4AD1000461CDB /* AgregarAmigosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B722B020D4AD1000461CDB /* AgregarAmigosVC.swift */; };
+		52C6667720C8BF4300FD369D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52C6667620C8BF4300FD369D /* GoogleService-Info.plist */; };
+		52CBD47B20D3022D000385A2 /* DetallesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBD47A20D3022C000385A2 /* DetallesVC.swift */; };
+		52CBD47F20D3854D000385A2 /* ContactosYGrupos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBD47E20D3854D000385A2 /* ContactosYGrupos.swift */; };
+		52DCE6092077410700B2B843 /* PopUpDetallesReportesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DCE6082077410700B2B843 /* PopUpDetallesReportesVC.swift */; };
+		52DF7119206C341000520757 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF7118206C341000520757 /* Usuario.swift */; };
+		52EE79C92040BA48008FC327 /* AppDelegateOM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE79C82040BA48008FC327 /* AppDelegateOM.swift */; };
+		52EE79CE2040BA48008FC327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EE79CC2040BA48008FC327 /* Main.storyboard */; };
+		52EE79D12040BA48008FC327 /* Ojo_Metropolitano.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52EE79CF2040BA48008FC327 /* Ojo_Metropolitano.xcdatamodeld */; };
+		52EE79D32040BA48008FC327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EE79D22040BA48008FC327 /* Assets.xcassets */; };
+		52EE79D62040BA48008FC327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EE79D42040BA48008FC327 /* LaunchScreen.storyboard */; };
+		52EE79E12040BA48008FC327 /* Ojo_MetropolitanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE79E02040BA48008FC327 /* Ojo_MetropolitanoTests.swift */; };
+		52EE79EC2040BA49008FC327 /* Ojo_MetropolitanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE79EB2040BA49008FC327 /* Ojo_MetropolitanoUITests.swift */; };
+		52EE7A042040BB45008FC327 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE79F92040BB3D008FC327 /* PinAnnotation.swift */; };
+		52EE7A052040BB45008FC327 /* PopUPLevantarReporte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE79FA2040BB3E008FC327 /* PopUPLevantarReporte.swift */; };
+		52EE7A062040BB45008FC327 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE79FB2040BB3F008FC327 /* MainTabController.swift */; };
+		52EE7A072040BB45008FC327 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE79FC2040BB3F008FC327 /* Login.swift */; };
+		52EE7A082040BB45008FC327 /* ReportesGlobales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE79FD2040BB40008FC327 /* ReportesGlobales.swift */; };
+		52EE7A092040BB45008FC327 /* MiCuentaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE79FE2040BB41008FC327 /* MiCuentaVC.swift */; };
+		52EE7A0B2040BB45008FC327 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE7A002040BB42008FC327 /* InicioViewController.swift */; };
+		52EE7A0C2040BB45008FC327 /* RegistrarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE7A012040BB43008FC327 /* RegistrarVC.swift */; };
+		52EE7A0D2040BB45008FC327 /* RoundBTN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE7A022040BB43008FC327 /* RoundBTN.swift */; };
+		52EE7AF020410FC4008FC327 /* LeventarReporteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE7AEF20410FC4008FC327 /* LeventarReporteVC.swift */; };
+		52FA93CE20C6FEB500D869D2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA93CC20C6FEB400D869D2 /* Realm.framework */; };
+		52FA93D020C6FEC200D869D2 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA93CC20C6FEB400D869D2 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52FA93D120C6FEC200D869D2 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA93CB20C6FEAA00D869D2 /* RealmSwift.framework */; };
+		52FA93D220C6FEC200D869D2 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA93CB20C6FEAA00D869D2 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5EEF7190450F200F9252EE3F /* Pods_OjoMetropolitano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2AE81C5DD42EF9B8FD4983 /* Pods_OjoMetropolitano.framework */; };
+		6945FA0E8376FD7A216D0B79 /* Pods_OjoMetropolitanoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32DAB3B8F7F9A9A1B7FD08 /* Pods_OjoMetropolitanoUITests.framework */; };
+		91532CBEE649811B5B6500A7 /* Pods_OjoMetropolitanoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B8389D9DCA3218CA029C46 /* Pods_OjoMetropolitanoTests.framework */; };
+		E4392D06B94F1D14EEF32949 /* Pods_Ojo_MetropolitanoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F324189CF6C85F0BE670871 /* Pods_Ojo_MetropolitanoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52EE79DD2040BA48008FC327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EE79BD2040BA48008FC327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EE79C42040BA48008FC327;
+			remoteInfo = "Ojo Metropolitano";
+		};
+		52EE79E82040BA49008FC327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EE79BD2040BA48008FC327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EE79C42040BA48008FC327;
+			remoteInfo = "Ojo Metropolitano";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52FA93D320C6FEC300D869D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				52FA93D220C6FEC200D869D2 /* RealmSwift.framework in Embed Frameworks */,
+				52FA93D020C6FEC200D869D2 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AD1AC8A1F8607042D615DF0 /* Pods-Ojo MetropolitanoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ojo MetropolitanoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ojo MetropolitanoUITests/Pods-Ojo MetropolitanoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		212FCC56D5A54B88193365E4 /* Pods-OjoMetropolitanoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OjoMetropolitanoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OjoMetropolitanoUITests/Pods-OjoMetropolitanoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2948FAF9A42694F69B542918 /* Pods-OjoMetropolitanoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OjoMetropolitanoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OjoMetropolitanoUITests/Pods-OjoMetropolitanoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C32DAB3B8F7F9A9A1B7FD08 /* Pods_OjoMetropolitanoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OjoMetropolitanoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F324189CF6C85F0BE670871 /* Pods_Ojo_MetropolitanoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ojo_MetropolitanoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D14009BCD8BECB3C75125 /* Pods_Ojo_MetropolitanoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ojo_MetropolitanoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5204A84520A289BE00CD27BA /* PopUpReportesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpReportesViewController.swift; sourceTree = "<group>"; };
+		5206C5FA2096D2C80009E851 /* UserLugares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLugares.swift; sourceTree = "<group>"; };
+		520C8C51208AC1FE00A12286 /* PopUpDetallesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpDetallesVC.swift; sourceTree = "<group>"; };
+		52206E69204C6BB6008A0E9C /* FloatyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyItem.swift; sourceTree = "<group>"; };
+		52206E6A204C6BB6008A0E9C /* FloatyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyViewController.swift; sourceTree = "<group>"; };
+		52206E6B204C6BB6008A0E9C /* FloatyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyManager.swift; sourceTree = "<group>"; };
+		52206E6C204C6BB6008A0E9C /* FloatyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyDelegate.swift; sourceTree = "<group>"; };
+		52206E6D204C6BB6008A0E9C /* FloatyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyWindow.swift; sourceTree = "<group>"; };
+		52206E6E204C6BB6008A0E9C /* Floaty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floaty.swift; sourceTree = "<group>"; };
+		52206E6F204C6BB6008A0E9C /* Floaty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Floaty.h; sourceTree = "<group>"; };
+		522E81DE20709E2400EFCB70 /* AgregarLugarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarLugarVC.swift; sourceTree = "<group>"; };
+		52314CEB205771A80058678C /* GruposCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GruposCollectionViewCell.swift; sourceTree = "<group>"; };
+		52314CED205772C90058678C /* MisLugaresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisLugaresVC.swift; sourceTree = "<group>"; };
+		52322D1F20C8E41F00D083E8 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		52322D2020C8E41F00D083E8 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		52322D2120C8E41F00D083E8 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		52322D2220C8E41F00D083E8 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		52322D2320C8E41F00D083E8 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		52322D2520C8E41F00D083E8 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		52322D2620C8E41F00D083E8 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		52322D2720C8E41F00D083E8 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		52322D2820C8E41F00D083E8 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		52322D2920C8E41F00D083E8 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		52322D2B20C8E41F00D083E8 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		52322D2D20C8E41F00D083E8 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		52322D2E20C8E41F00D083E8 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		52322D2F20C8E41F00D083E8 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		52322D3020C8E41F00D083E8 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		52322D3120C8E41F00D083E8 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		52322D3220C8E41F00D083E8 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		52322D3420C8E41F00D083E8 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		5239E66D2054A6C200BC8E3A /* CoucBase_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoucBase_Header.h; sourceTree = "<group>"; };
+		523EFF23209F9AB8002DD97C /* ValidarSesionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidarSesionVC.swift; sourceTree = "<group>"; };
+		5243FC6720D195C400C73F76 /* WatchImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchImageVC.swift; sourceTree = "<group>"; };
+		526D23F720AA50E900D51650 /* ContactosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosTableViewCell.swift; sourceTree = "<group>"; };
+		526D23F920AA695600D51650 /* ContactosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosCollectionViewCell.swift; sourceTree = "<group>"; };
+		528F89F020A976F20082E4EA /* MisContactosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisContactosVC.swift; sourceTree = "<group>"; };
+		52B10144205B70F8006066B0 /* NaviigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviigationVC.swift; sourceTree = "<group>"; };
+		52B722B020D4AD1000461CDB /* AgregarAmigosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarAmigosVC.swift; sourceTree = "<group>"; };
+		52C6667620C8BF4300FD369D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52C6667820C8CAE000FD369D /* OjoMetropolitano.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OjoMetropolitano.entitlements; sourceTree = "<group>"; };
+		52CBD47A20D3022C000385A2 /* DetallesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallesVC.swift; sourceTree = "<group>"; };
+		52CBD47E20D3854D000385A2 /* ContactosYGrupos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosYGrupos.swift; sourceTree = "<group>"; };
+		52DCE6082077410700B2B843 /* PopUpDetallesReportesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpDetallesReportesVC.swift; sourceTree = "<group>"; };
+		52DF7118206C341000520757 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		52EE79C52040BA48008FC327 /* OjoMetropolitano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OjoMetropolitano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EE79C82040BA48008FC327 /* AppDelegateOM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateOM.swift; sourceTree = "<group>"; };
+		52EE79CD2040BA48008FC327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52EE79D02040BA48008FC327 /* Ojo_Metropolitano.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ojo_Metropolitano.xcdatamodel; sourceTree = "<group>"; };
+		52EE79D22040BA48008FC327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52EE79D52040BA48008FC327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52EE79D72040BA48008FC327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EE79DC2040BA48008FC327 /* OjoMetropolitanoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OjoMetropolitanoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EE79E02040BA48008FC327 /* Ojo_MetropolitanoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ojo_MetropolitanoTests.swift; sourceTree = "<group>"; };
+		52EE79E22040BA49008FC327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EE79E72040BA49008FC327 /* OjoMetropolitanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OjoMetropolitanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EE79EB2040BA49008FC327 /* Ojo_MetropolitanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ojo_MetropolitanoUITests.swift; sourceTree = "<group>"; };
+		52EE79ED2040BA49008FC327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EE79F92040BB3D008FC327 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		52EE79FA2040BB3E008FC327 /* PopUPLevantarReporte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUPLevantarReporte.swift; sourceTree = "<group>"; };
+		52EE79FB2040BB3F008FC327 /* MainTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		52EE79FC2040BB3F008FC327 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		52EE79FD2040BB40008FC327 /* ReportesGlobales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportesGlobales.swift; sourceTree = "<group>"; };
+		52EE79FE2040BB41008FC327 /* MiCuentaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiCuentaVC.swift; sourceTree = "<group>"; };
+		52EE7A002040BB42008FC327 /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		52EE7A012040BB43008FC327 /* RegistrarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrarVC.swift; sourceTree = "<group>"; };
+		52EE7A022040BB43008FC327 /* RoundBTN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBTN.swift; sourceTree = "<group>"; };
+		52EE7AEF20410FC4008FC327 /* LeventarReporteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeventarReporteVC.swift; sourceTree = "<group>"; };
+		52FA93CB20C6FEAA00D869D2 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		52FA93CC20C6FEB400D869D2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		683141736862B122974DBD53 /* Pods-OjoMetropolitanoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OjoMetropolitanoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OjoMetropolitanoTests/Pods-OjoMetropolitanoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C8C0CCEEA9C91AD45CB2918 /* Pods-OjoMetropolitano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OjoMetropolitano.release.xcconfig"; path = "Pods/Target Support Files/Pods-OjoMetropolitano/Pods-OjoMetropolitano.release.xcconfig"; sourceTree = "<group>"; };
+		703DCC0FE3BE892957701EA5 /* Pods-Ojo MetropolitanoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ojo MetropolitanoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ojo MetropolitanoTests/Pods-Ojo MetropolitanoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7ACA42FD9467CB3738C25D77 /* Pods-Ojo Metropolitano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ojo Metropolitano.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ojo Metropolitano/Pods-Ojo Metropolitano.debug.xcconfig"; sourceTree = "<group>"; };
+		7B2AE81C5DD42EF9B8FD4983 /* Pods_OjoMetropolitano.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OjoMetropolitano.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD5939BCB26EC8BA709A080 /* Pods-OjoMetropolitano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OjoMetropolitano.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OjoMetropolitano/Pods-OjoMetropolitano.debug.xcconfig"; sourceTree = "<group>"; };
+		9DEB92FCA2526D559B8DC594 /* Pods-OjoMetropolitanoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OjoMetropolitanoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OjoMetropolitanoTests/Pods-OjoMetropolitanoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A716E6FBF952BCFAE49BAA35 /* Pods-Ojo Metropolitano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ojo Metropolitano.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ojo Metropolitano/Pods-Ojo Metropolitano.release.xcconfig"; sourceTree = "<group>"; };
+		B1B8389D9DCA3218CA029C46 /* Pods_OjoMetropolitanoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OjoMetropolitanoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C552C9936552B7DCCB272E5B /* Pods-Ojo MetropolitanoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ojo MetropolitanoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ojo MetropolitanoTests/Pods-Ojo MetropolitanoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D16B20DE1131F7D550FF52D1 /* Pods_Ojo_Metropolitano.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ojo_Metropolitano.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D8E4A59B27D47015A44B53 /* Pods-Ojo MetropolitanoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ojo MetropolitanoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ojo MetropolitanoUITests/Pods-Ojo MetropolitanoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EE79C22040BA48008FC327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA93CE20C6FEB500D869D2 /* Realm.framework in Frameworks */,
+				52FA93D120C6FEC200D869D2 /* RealmSwift.framework in Frameworks */,
+				5EEF7190450F200F9252EE3F /* Pods_OjoMetropolitano.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE79D92040BA48008FC327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4392D06B94F1D14EEF32949 /* Pods_Ojo_MetropolitanoTests.framework in Frameworks */,
+				91532CBEE649811B5B6500A7 /* Pods_OjoMetropolitanoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE79E42040BA49008FC327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F42A563F67E71881806091 /* Pods_Ojo_MetropolitanoUITests.framework in Frameworks */,
+				6945FA0E8376FD7A216D0B79 /* Pods_OjoMetropolitanoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52206E68204C6B9A008A0E9C /* Floaty */ = {
+			isa = PBXGroup;
+			children = (
+				52206E6F204C6BB6008A0E9C /* Floaty.h */,
+				52206E6E204C6BB6008A0E9C /* Floaty.swift */,
+				52206E6C204C6BB6008A0E9C /* FloatyDelegate.swift */,
+				52206E69204C6BB6008A0E9C /* FloatyItem.swift */,
+				52206E6B204C6BB6008A0E9C /* FloatyManager.swift */,
+				52206E6A204C6BB6008A0E9C /* FloatyViewController.swift */,
+				52206E6D204C6BB6008A0E9C /* FloatyWindow.swift */,
+			);
+			path = Floaty;
+			sourceTree = "<group>";
+		};
+		52322D1C20C8E15A00D083E8 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				52322D1D20C8E41F00D083E8 /* IQKeyboardManagerSwift */,
+			);
+			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+		52322D1D20C8E41F00D083E8 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				52322D1E20C8E41F00D083E8 /* Categories */,
+				52322D2420C8E41F00D083E8 /* Constants */,
+				52322D2720C8E41F00D083E8 /* IQKeyboardManager.swift */,
+				52322D2820C8E41F00D083E8 /* IQKeyboardManagerSwift.h */,
+				52322D2920C8E41F00D083E8 /* IQKeyboardReturnKeyHandler.swift */,
+				52322D2A20C8E41F00D083E8 /* IQTextView */,
+				52322D2C20C8E41F00D083E8 /* IQToolbar */,
+				52322D3320C8E41F00D083E8 /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		52322D1E20C8E41F00D083E8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				52322D1F20C8E41F00D083E8 /* IQNSArray+Sort.swift */,
+				52322D2020C8E41F00D083E8 /* IQUIScrollView+Additions.swift */,
+				52322D2120C8E41F00D083E8 /* IQUITextFieldView+Additions.swift */,
+				52322D2220C8E41F00D083E8 /* IQUIView+Hierarchy.swift */,
+				52322D2320C8E41F00D083E8 /* IQUIViewController+Additions.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		52322D2420C8E41F00D083E8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				52322D2520C8E41F00D083E8 /* IQKeyboardManagerConstants.swift */,
+				52322D2620C8E41F00D083E8 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		52322D2A20C8E41F00D083E8 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				52322D2B20C8E41F00D083E8 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		52322D2C20C8E41F00D083E8 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				52322D2D20C8E41F00D083E8 /* IQBarButtonItem.swift */,
+				52322D2E20C8E41F00D083E8 /* IQInvocation.swift */,
+				52322D2F20C8E41F00D083E8 /* IQPreviousNextView.swift */,
+				52322D3020C8E41F00D083E8 /* IQTitleBarButtonItem.swift */,
+				52322D3120C8E41F00D083E8 /* IQToolbar.swift */,
+				52322D3220C8E41F00D083E8 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		52322D3320C8E41F00D083E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52322D3420C8E41F00D083E8 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52432F80204F90AA00FCEB8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D16B20DE1131F7D550FF52D1 /* Pods_Ojo_Metropolitano.framework */,
+				3F324189CF6C85F0BE670871 /* Pods_Ojo_MetropolitanoTests.framework */,
+				3F9D14009BCD8BECB3C75125 /* Pods_Ojo_MetropolitanoUITests.framework */,
+				7B2AE81C5DD42EF9B8FD4983 /* Pods_OjoMetropolitano.framework */,
+				B1B8389D9DCA3218CA029C46 /* Pods_OjoMetropolitanoTests.framework */,
+				3C32DAB3B8F7F9A9A1B7FD08 /* Pods_OjoMetropolitanoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52DF710D206C2E0200520757 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				52FA93CC20C6FEB400D869D2 /* Realm.framework */,
+				52FA93CB20C6FEAA00D869D2 /* RealmSwift.framework */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		52EE79BC2040BA48008FC327 = {
+			isa = PBXGroup;
+			children = (
+				52EE79C72040BA48008FC327 /* Ojo Metropolitano */,
+				52EE79DF2040BA48008FC327 /* Ojo MetropolitanoTests */,
+				52EE79EA2040BA49008FC327 /* Ojo MetropolitanoUITests */,
+				52EE79C62040BA48008FC327 /* Products */,
+				52432F80204F90AA00FCEB8E /* Frameworks */,
+				A22C05C61B65109153EB97BC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		52EE79C62040BA48008FC327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EE79C52040BA48008FC327 /* OjoMetropolitano.app */,
+				52EE79DC2040BA48008FC327 /* OjoMetropolitanoTests.xctest */,
+				52EE79E72040BA49008FC327 /* OjoMetropolitanoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EE79C72040BA48008FC327 /* Ojo Metropolitano */ = {
+			isa = PBXGroup;
+			children = (
+				52C6667820C8CAE000FD369D /* OjoMetropolitano.entitlements */,
+				52EE79C82040BA48008FC327 /* AppDelegateOM.swift */,
+				52EE7A002040BB42008FC327 /* InicioViewController.swift */,
+				52EE79FC2040BB3F008FC327 /* Login.swift */,
+				52EE7AEF20410FC4008FC327 /* LeventarReporteVC.swift */,
+				52EE79FB2040BB3F008FC327 /* MainTabController.swift */,
+				52EE79FE2040BB41008FC327 /* MiCuentaVC.swift */,
+				52EE79F92040BB3D008FC327 /* PinAnnotation.swift */,
+				52EE79FA2040BB3E008FC327 /* PopUPLevantarReporte.swift */,
+				52EE7A012040BB43008FC327 /* RegistrarVC.swift */,
+				52EE79FD2040BB40008FC327 /* ReportesGlobales.swift */,
+				52EE7A022040BB43008FC327 /* RoundBTN.swift */,
+				52314CEB205771A80058678C /* GruposCollectionViewCell.swift */,
+				52314CED205772C90058678C /* MisLugaresVC.swift */,
+				52B10144205B70F8006066B0 /* NaviigationVC.swift */,
+				52DF7118206C341000520757 /* Usuario.swift */,
+				522E81DE20709E2400EFCB70 /* AgregarLugarVC.swift */,
+				52DCE6082077410700B2B843 /* PopUpDetallesReportesVC.swift */,
+				520C8C51208AC1FE00A12286 /* PopUpDetallesVC.swift */,
+				5206C5FA2096D2C80009E851 /* UserLugares.swift */,
+				5204A84520A289BE00CD27BA /* PopUpReportesViewController.swift */,
+				523EFF23209F9AB8002DD97C /* ValidarSesionVC.swift */,
+				528F89F020A976F20082E4EA /* MisContactosVC.swift */,
+				526D23F720AA50E900D51650 /* ContactosTableViewCell.swift */,
+				526D23F920AA695600D51650 /* ContactosCollectionViewCell.swift */,
+				52CBD47A20D3022C000385A2 /* DetallesVC.swift */,
+				5243FC6720D195C400C73F76 /* WatchImageVC.swift */,
+				52CBD47E20D3854D000385A2 /* ContactosYGrupos.swift */,
+				52B722B020D4AD1000461CDB /* AgregarAmigosVC.swift */,
+				5239E66D2054A6C200BC8E3A /* CoucBase_Header.h */,
+				52EE79CC2040BA48008FC327 /* Main.storyboard */,
+				52EE79D22040BA48008FC327 /* Assets.xcassets */,
+				52EE79D42040BA48008FC327 /* LaunchScreen.storyboard */,
+				52C6667620C8BF4300FD369D /* GoogleService-Info.plist */,
+				52EE79D72040BA48008FC327 /* Info.plist */,
+				52EE79CF2040BA48008FC327 /* Ojo_Metropolitano.xcdatamodeld */,
+				52322D1C20C8E15A00D083E8 /* KeyBoard */,
+				52DF710D206C2E0200520757 /* Realm */,
+				52206E68204C6B9A008A0E9C /* Floaty */,
+			);
+			path = "Ojo Metropolitano";
+			sourceTree = "<group>";
+		};
+		52EE79DF2040BA48008FC327 /* Ojo MetropolitanoTests */ = {
+			isa = PBXGroup;
+			children = (
+				52EE79E02040BA48008FC327 /* Ojo_MetropolitanoTests.swift */,
+				52EE79E22040BA49008FC327 /* Info.plist */,
+			);
+			path = "Ojo MetropolitanoTests";
+			sourceTree = "<group>";
+		};
+		52EE79EA2040BA49008FC327 /* Ojo MetropolitanoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52EE79EB2040BA49008FC327 /* Ojo_MetropolitanoUITests.swift */,
+				52EE79ED2040BA49008FC327 /* Info.plist */,
+			);
+			path = "Ojo MetropolitanoUITests";
+			sourceTree = "<group>";
+		};
+		A22C05C61B65109153EB97BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA42FD9467CB3738C25D77 /* Pods-Ojo Metropolitano.debug.xcconfig */,
+				A716E6FBF952BCFAE49BAA35 /* Pods-Ojo Metropolitano.release.xcconfig */,
+				C552C9936552B7DCCB272E5B /* Pods-Ojo MetropolitanoTests.debug.xcconfig */,
+				703DCC0FE3BE892957701EA5 /* Pods-Ojo MetropolitanoTests.release.xcconfig */,
+				D7D8E4A59B27D47015A44B53 /* Pods-Ojo MetropolitanoUITests.debug.xcconfig */,
+				1AD1AC8A1F8607042D615DF0 /* Pods-Ojo MetropolitanoUITests.release.xcconfig */,
+				8BD5939BCB26EC8BA709A080 /* Pods-OjoMetropolitano.debug.xcconfig */,
+				6C8C0CCEEA9C91AD45CB2918 /* Pods-OjoMetropolitano.release.xcconfig */,
+				683141736862B122974DBD53 /* Pods-OjoMetropolitanoTests.debug.xcconfig */,
+				9DEB92FCA2526D559B8DC594 /* Pods-OjoMetropolitanoTests.release.xcconfig */,
+				2948FAF9A42694F69B542918 /* Pods-OjoMetropolitanoUITests.debug.xcconfig */,
+				212FCC56D5A54B88193365E4 /* Pods-OjoMetropolitanoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EE79C42040BA48008FC327 /* OjoMetropolitano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EE79F02040BA49008FC327 /* Build configuration list for PBXNativeTarget "OjoMetropolitano" */;
+			buildPhases = (
+				F8DF69BBD5366E119DFB79C7 /* [CP] Check Pods Manifest.lock */,
+				52EE79C12040BA48008FC327 /* Sources */,
+				52EE79C22040BA48008FC327 /* Frameworks */,
+				52EE79C32040BA48008FC327 /* Resources */,
+				C3F346B5D036344211FD08FD /* [CP] Embed Pods Frameworks */,
+				000A70B7EA2EF91404A37186 /* [CP] Copy Pods Resources */,
+				52FA93D320C6FEC300D869D2 /* Embed Frameworks */,
+				52FA93D420C6FECB00D869D2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OjoMetropolitano;
+			productName = "Ojo Metropolitano";
+			productReference = 52EE79C52040BA48008FC327 /* OjoMetropolitano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52EE79DB2040BA48008FC327 /* OjoMetropolitanoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EE79F32040BA49008FC327 /* Build configuration list for PBXNativeTarget "OjoMetropolitanoTests" */;
+			buildPhases = (
+				AA2D6039FA34A0FBB074106D /* [CP] Check Pods Manifest.lock */,
+				52EE79D82040BA48008FC327 /* Sources */,
+				52EE79D92040BA48008FC327 /* Frameworks */,
+				52EE79DA2040BA48008FC327 /* Resources */,
+				F8F83CA47F6B8DDBE01E9782 /* [CP] Embed Pods Frameworks */,
+				54FF0FDAFCD1B439C2F935B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EE79DE2040BA48008FC327 /* PBXTargetDependency */,
+			);
+			name = OjoMetropolitanoTests;
+			productName = "Ojo MetropolitanoTests";
+			productReference = 52EE79DC2040BA48008FC327 /* OjoMetropolitanoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52EE79E62040BA49008FC327 /* OjoMetropolitanoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EE79F62040BA49008FC327 /* Build configuration list for PBXNativeTarget "OjoMetropolitanoUITests" */;
+			buildPhases = (
+				1CF8266F9CC8D054E041CCA8 /* [CP] Check Pods Manifest.lock */,
+				52EE79E32040BA49008FC327 /* Sources */,
+				52EE79E42040BA49008FC327 /* Frameworks */,
+				52EE79E52040BA49008FC327 /* Resources */,
+				6AEF7D90B4C48C5FBCC61149 /* [CP] Embed Pods Frameworks */,
+				C4F74800AAD81A5714F963E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EE79E92040BA49008FC327 /* PBXTargetDependency */,
+			);
+			name = OjoMetropolitanoUITests;
+			productName = "Ojo MetropolitanoUITests";
+			productReference = 52EE79E72040BA49008FC327 /* OjoMetropolitanoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EE79BD2040BA48008FC327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Silicon Bear";
+				TargetAttributes = {
+					52EE79C42040BA48008FC327 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					52EE79DB2040BA48008FC327 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52EE79C42040BA48008FC327;
+					};
+					52EE79E62040BA49008FC327 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52EE79C42040BA48008FC327;
+					};
+				};
+			};
+			buildConfigurationList = 52EE79C02040BA48008FC327 /* Build configuration list for PBXProject "OjoMetropolitano" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52EE79BC2040BA48008FC327;
+			productRefGroup = 52EE79C62040BA48008FC327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EE79C42040BA48008FC327 /* OjoMetropolitano */,
+				52EE79DB2040BA48008FC327 /* OjoMetropolitanoTests */,
+				52EE79E62040BA49008FC327 /* OjoMetropolitanoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EE79C32040BA48008FC327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52322D4520C8E41F00D083E8 /* IQKeyboardManager.bundle in Resources */,
+				52EE79D62040BA48008FC327 /* LaunchScreen.storyboard in Resources */,
+				52EE79D32040BA48008FC327 /* Assets.xcassets in Resources */,
+				52C6667720C8BF4300FD369D /* GoogleService-Info.plist in Resources */,
+				52EE79CE2040BA48008FC327 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE79DA2040BA48008FC327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE79E52040BA49008FC327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		000A70B7EA2EF91404A37186 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OjoMetropolitano/Pods-OjoMetropolitano-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CF8266F9CC8D054E041CCA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OjoMetropolitanoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52FA93D420C6FECB00D869D2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+		54FF0FDAFCD1B439C2F935B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OjoMetropolitanoTests/Pods-OjoMetropolitanoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AEF7D90B4C48C5FBCC61149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OjoMetropolitanoUITests/Pods-OjoMetropolitanoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2D6039FA34A0FBB074106D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OjoMetropolitanoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F346B5D036344211FD08FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OjoMetropolitano/Pods-OjoMetropolitano-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OjoMetropolitano/Pods-OjoMetropolitano-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F74800AAD81A5714F963E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OjoMetropolitanoUITests/Pods-OjoMetropolitanoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8DF69BBD5366E119DFB79C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OjoMetropolitano-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F83CA47F6B8DDBE01E9782 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OjoMetropolitanoTests/Pods-OjoMetropolitanoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EE79C12040BA48008FC327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EE7A082040BB45008FC327 /* ReportesGlobales.swift in Sources */,
+				52206E71204C6BB6008A0E9C /* FloatyViewController.swift in Sources */,
+				52EE79D12040BA48008FC327 /* Ojo_Metropolitano.xcdatamodeld in Sources */,
+				52DF7119206C341000520757 /* Usuario.swift in Sources */,
+				526D23FA20AA695700D51650 /* ContactosCollectionViewCell.swift in Sources */,
+				5204A84620A289BE00CD27BA /* PopUpReportesViewController.swift in Sources */,
+				52CBD47B20D3022D000385A2 /* DetallesVC.swift in Sources */,
+				52322D3720C8E41F00D083E8 /* IQUITextFieldView+Additions.swift in Sources */,
+				5206C5FB2096D2C80009E851 /* UserLugares.swift in Sources */,
+				52EE7AF020410FC4008FC327 /* LeventarReporteVC.swift in Sources */,
+				52322D4220C8E41F00D083E8 /* IQTitleBarButtonItem.swift in Sources */,
+				52206E70204C6BB6008A0E9C /* FloatyItem.swift in Sources */,
+				52CBD47F20D3854D000385A2 /* ContactosYGrupos.swift in Sources */,
+				523EFF24209F9AB8002DD97C /* ValidarSesionVC.swift in Sources */,
+				52322D3A20C8E41F00D083E8 /* IQKeyboardManagerConstants.swift in Sources */,
+				52EE7A0B2040BB45008FC327 /* InicioViewController.swift in Sources */,
+				52322D3B20C8E41F00D083E8 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				52322D3620C8E41F00D083E8 /* IQUIScrollView+Additions.swift in Sources */,
+				5243FC6820D195C500C73F76 /* WatchImageVC.swift in Sources */,
+				52322D4020C8E41F00D083E8 /* IQInvocation.swift in Sources */,
+				526D23F820AA50E900D51650 /* ContactosTableViewCell.swift in Sources */,
+				52EE7A092040BB45008FC327 /* MiCuentaVC.swift in Sources */,
+				52206E75204C6BB6008A0E9C /* Floaty.swift in Sources */,
+				52EE7A042040BB45008FC327 /* PinAnnotation.swift in Sources */,
+				52206E73204C6BB6008A0E9C /* FloatyDelegate.swift in Sources */,
+				52322D3820C8E41F00D083E8 /* IQUIView+Hierarchy.swift in Sources */,
+				522E81DF20709E2400EFCB70 /* AgregarLugarVC.swift in Sources */,
+				520C8C52208AC1FE00A12286 /* PopUpDetallesVC.swift in Sources */,
+				52B722B120D4AD1000461CDB /* AgregarAmigosVC.swift in Sources */,
+				52322D3E20C8E41F00D083E8 /* IQTextView.swift in Sources */,
+				528F89F120A976F30082E4EA /* MisContactosVC.swift in Sources */,
+				52206E72204C6BB6008A0E9C /* FloatyManager.swift in Sources */,
+				52314CEE205772C90058678C /* MisLugaresVC.swift in Sources */,
+				52322D4120C8E41F00D083E8 /* IQPreviousNextView.swift in Sources */,
+				52322D3D20C8E41F00D083E8 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				52322D4320C8E41F00D083E8 /* IQToolbar.swift in Sources */,
+				52EE7A0C2040BB45008FC327 /* RegistrarVC.swift in Sources */,
+				52B10145205B70F8006066B0 /* NaviigationVC.swift in Sources */,
+				52322D4420C8E41F00D083E8 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				52322D3F20C8E41F00D083E8 /* IQBarButtonItem.swift in Sources */,
+				52314CEC205771A80058678C /* GruposCollectionViewCell.swift in Sources */,
+				52206E74204C6BB6008A0E9C /* FloatyWindow.swift in Sources */,
+				52322D3C20C8E41F00D083E8 /* IQKeyboardManager.swift in Sources */,
+				52EE7A062040BB45008FC327 /* MainTabController.swift in Sources */,
+				52EE7A072040BB45008FC327 /* Login.swift in Sources */,
+				52322D3920C8E41F00D083E8 /* IQUIViewController+Additions.swift in Sources */,
+				52DCE6092077410700B2B843 /* PopUpDetallesReportesVC.swift in Sources */,
+				52322D3520C8E41F00D083E8 /* IQNSArray+Sort.swift in Sources */,
+				52EE7A0D2040BB45008FC327 /* RoundBTN.swift in Sources */,
+				52EE79C92040BA48008FC327 /* AppDelegateOM.swift in Sources */,
+				52EE7A052040BB45008FC327 /* PopUPLevantarReporte.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE79D82040BA48008FC327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EE79E12040BA48008FC327 /* Ojo_MetropolitanoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EE79E32040BA49008FC327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EE79EC2040BA49008FC327 /* Ojo_MetropolitanoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52EE79DE2040BA48008FC327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EE79C42040BA48008FC327 /* OjoMetropolitano */;
+			targetProxy = 52EE79DD2040BA48008FC327 /* PBXContainerItemProxy */;
+		};
+		52EE79E92040BA49008FC327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EE79C42040BA48008FC327 /* OjoMetropolitano */;
+			targetProxy = 52EE79E82040BA49008FC327 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52EE79CC2040BA48008FC327 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EE79CD2040BA48008FC327 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52EE79D42040BA48008FC327 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EE79D52040BA48008FC327 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52EE79EE2040BA49008FC327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52EE79EF2040BA49008FC327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52EE79F12040BA49008FC327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD5939BCB26EC8BA709A080 /* Pods-OjoMetropolitano.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ojo Metropolitano/OjoMetropolitano.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRER3SSMXC;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/IQKeyboardManagerSwift",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+				);
+				INFOPLIST_FILE = "Ojo Metropolitano/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siliconbear.Ojo-Metropolitano";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jesusreynagarodriguez/Documents/Ojo Metropolitano/Ojo Metropolitano/CoucBase_Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52EE79F22040BA49008FC327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8C0CCEEA9C91AD45CB2918 /* Pods-OjoMetropolitano.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ojo Metropolitano/OjoMetropolitano.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRER3SSMXC;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/IQKeyboardManagerSwift",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+					"$(PROJECT_DIR)/Ojo\\ Metropolitano/Realm",
+				);
+				INFOPLIST_FILE = "Ojo Metropolitano/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siliconbear.Ojo-Metropolitano";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jesusreynagarodriguez/Documents/Ojo Metropolitano/Ojo Metropolitano/CoucBase_Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		52EE79F42040BA49008FC327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683141736862B122974DBD53 /* Pods-OjoMetropolitanoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ojo MetropolitanoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siliconbear.Ojo-MetropolitanoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OjoMetropolitano.app/OjoMetropolitano";
+			};
+			name = Debug;
+		};
+		52EE79F52040BA49008FC327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEB92FCA2526D559B8DC594 /* Pods-OjoMetropolitanoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ojo MetropolitanoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siliconbear.Ojo-MetropolitanoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OjoMetropolitano.app/OjoMetropolitano";
+			};
+			name = Release;
+		};
+		52EE79F72040BA49008FC327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2948FAF9A42694F69B542918 /* Pods-OjoMetropolitanoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ojo MetropolitanoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siliconbear.Ojo-MetropolitanoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ojo Metropolitano";
+			};
+			name = Debug;
+		};
+		52EE79F82040BA49008FC327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212FCC56D5A54B88193365E4 /* Pods-OjoMetropolitanoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ojo MetropolitanoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siliconbear.Ojo-MetropolitanoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ojo Metropolitano";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EE79C02040BA48008FC327 /* Build configuration list for PBXProject "OjoMetropolitano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE79EE2040BA49008FC327 /* Debug */,
+				52EE79EF2040BA49008FC327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EE79F02040BA49008FC327 /* Build configuration list for PBXNativeTarget "OjoMetropolitano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE79F12040BA49008FC327 /* Debug */,
+				52EE79F22040BA49008FC327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EE79F32040BA49008FC327 /* Build configuration list for PBXNativeTarget "OjoMetropolitanoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE79F42040BA49008FC327 /* Debug */,
+				52EE79F52040BA49008FC327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EE79F62040BA49008FC327 /* Build configuration list for PBXNativeTarget "OjoMetropolitanoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE79F72040BA49008FC327 /* Debug */,
+				52EE79F82040BA49008FC327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52EE79CF2040BA48008FC327 /* Ojo_Metropolitano.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52EE79D02040BA48008FC327 /* Ojo_Metropolitano.xcdatamodel */,
+			);
+			currentVersion = 52EE79D02040BA48008FC327 /* Ojo_Metropolitano.xcdatamodel */;
+			path = Ojo_Metropolitano.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52EE79BD2040BA48008FC327 /* Project object */;
+}
